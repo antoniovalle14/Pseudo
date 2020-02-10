@@ -7,7 +7,7 @@ Algoritmo rellenar
 	Escribir rsdo
 FinAlgoritmo
 
-Funcion rsdo = rellenarDerecha(frase,tam)
+Funcion rsdo <- rellenarDerecha(frase,tam)
 	falta <- tam-Longitud(frase)
 	cad <- generarCadena("*",falta)
 	rsdo <- Concatenar(frase,cad)
