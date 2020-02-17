@@ -1,11 +1,12 @@
 Algoritmo maritmetica
+	
 	Escribir 'Elige un tamaño.'
 	Leer tam
 	Dimension valores[tam]
 	rellenarAleatoriamente(valores,tam)
 	imprimirVector(valores,tam)
 	media <- mediaVector(valores,tam)
-	Escribir media
+	
 FinAlgoritmo
 
 Funcion imprimirVector(vector,tam)
